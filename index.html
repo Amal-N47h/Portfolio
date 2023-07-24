@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Amal Nath</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i>Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>Contact-Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- main-->
+
+  <main class="main">
+    <!--========================= Home =====================-->
+
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/Amal_Nath/" target="_blank" class="home__social-icon">
+
+              <i class="uil uil-linkedin-alt home__icon"></i>
+            </a>
+
+            <a href="https://github.com/AmalNath-VS" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt home__icon"></i>
+            </a>
+          </div>
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0profile228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="-79" y="-46" xlink:href="Images/PXL_20230502_105551700.PORTRAIT.ORIGINAL~3.jpg" />
+              </g>
+            </svg>
+          </div>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'm Amal Nath</h1>
+            <h3 class="home__subtitle">Web-developer</h3>
+            <p class="home__description">
+              A student at <strong>Self Stack </strong>, Kozhikode.
+            </p>
+            <a href="#contact" class="button button--flex">
+              Contact me<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--======================= About========================-->
+
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+
+      <div class="about__container container grid">
+        <img src="Images/PWD_6808~2.JPG" alt="" class="about__img" />
+
+        <div class="about__data">
+          <p class="about__description">
+            I’m doing 6 months internship at Self Stack, passionate about technology and avid
+            reader. I have a self-motivated and can-do attitude, thriving in challenging
+            and dynamic environments. Seeking a competitive position to enhance my
+            skills and contribute to a professional organization. I'm very much passionate to learn new stuffs
+            that interests me and can help me to get better.
+          </p>
+
+        </div>
+      </div>
+    </section>
+    
+    <!--==================== Qualifications ==================-->
+
+    <section class="qualification__section service__section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">My personal journey</span>
+
+      <div class="qualification__container container grid services__container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!--====== Qualification Content 1 ======-->
+          <div class="
+                qualification__content
+                qualifiation__active
+                services__content
+              " data-content id="education">
+            <!--====== Qualification 1 ======-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">SSLC</h3>
+                <span class="qualification__subtitle">G.V.H.S.S <br>Kulathoor</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2019
+                </div>
+                <span class="
+                      button button--flex button--small button--link
+                      services__button
+                    ">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Class 10th Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Subjects were studied: Science, Maths, English,
+                          Social Studies,Malayalam.
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 100% </p>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--====== Qualification 2 ======-->
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Class 12th</h3>
+                <span class="qualification__subtitle">G.V.H.S.S <br>Kulathoor</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2021
+                </div>
+                <span class="
+                      button button--flex button--small button--link
+                      services__button
+                    ">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Class 12th Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Subjects were studied: Physics, Chemistry, Maths,
+                          English, Biology,Malayalam.
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 82.9% </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--====== Qualification 3 ======-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">College</h3>
+                <span class="qualification__subtitle">GC KNM Kanjiramkulam</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2019 - 2022
+                </div>
+                <span class="
+                      button button--flex button--small button--link
+                      services__button
+                    ">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">College Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>
+                          Studying core subjects of Maths including Statistics
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Scored an aggregate of 6.2 CGPA in till now.</p>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <!--<span class="qualification__line"></span>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=================== Portfolio ===================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Most recent work</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!-- ------------------------portfollio 1-------------------- -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="Images/Stream TV and Movies Live and Online Hulu.png" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Hulu-Website</h3>
+              <p class="portfolio__description">This project is the static website of hulu</p>
+              <a href="https://github.com/AmalNath-VS/Hulu-website"
+                class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://amalnath-vs.github.io/Hulu-website/"
+                class="button button--flex button--small portfolio__button">
+                See Live
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- ------------------------portfollio 2-------------------- -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="Images/A Simple and Safer Way to Pay and Get Paid PayPal IN.png" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Paypal-Website</h3>
+              <p class="portfolio__description">This project is the static website of Paypal</p>
+              <a href="https://github.com/AmalNath-VS/Paypal-website"
+                class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://amalnath-vs.github.io/Paypal-website/"
+                class="button button--flex button--small portfolio__button">
+                See Live
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------portfollio 3-------------------- -->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="Images/Automobili Lamborghini - Official Website Lamborghini.com.png" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Lamborghini-Website</h3>
+              <p class="portfolio__description">This project is the static website of lamborghini</p>
+              <a href="https://github.com/AmalNath-VS/Lamborghini-website"
+                class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://amalnath-vs.github.io/Lamborghini-website/"
+                class="button button--flex button--small portfolio__button">
+                See Live
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+
+        <!-- add arrows
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        add pagination
+        <div class="swiper-pagination"></div>
+      </div>
+    </section> -->
+
+
+    <!--===================== Contact Me =====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-calling contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitle"><a href="tel:9188156447"></a>9188156447</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope-minus contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">amalnath908@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Thiruvananthapuram, Kerala, India</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="https://script.google.com/macros/s/AKfycbwWkXOVJYpft8xMVpjP0ZzFO-IPD_pITlJVS4D2fd78zxV0nWWGTvradp9Dxh44JYyBng/exec" method="post" onsubmit="return validate()" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="name" class="content__label">Name</label>
+              <input type="text" name="name" id="name" class="contact__input">
+            </div>
+
+            <div class="contact__content">
+              <label for="email" class="content__label">Email</label>
+              <input type="Email" name="email"  id="mailid" class="contact__input">
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <label for="message" class="content__label">Message</label>
+            <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
+          </div>
+
+          <div>
+            <input class="but-sub" type="submit" value="Send Message">
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--================== Footer ===============-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Amal Nath</h1>
+          <span class="footer__subtitle">Web developer</span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#qualification" class="footer__link">Qualification</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact-Me</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+
+
+          <a href="https://www.instagram.com/amal.nath._/" class="footer__social" target="__blank">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; Amal Nath. All right reserved</p>
+    </div>
+  </footer>
+
+  <!--================== SCROLL TOP ==================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <script type="text/javascript" src="portfolio.js"></script>
+
+  <script src="assets/ptj.js"></script>
+</body>
+
+</html>
